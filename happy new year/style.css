@@ -1,3 +1,4 @@
+
 .new-year-banner {
   background: url(images/Banner\ Image.png) no-repeat center center;
   background-size: cover;
@@ -12,19 +13,54 @@
 }
 
 .new-year-banner h1 {
+color: #FFF;
+
+font-family: 'Merriweather', serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
  margin-top: 100px; /* Adjust as needed */
  font-size: 24px; /* Adjust as needed */
 }
 
 .new-year-banner h2 {
- font-size: 36px; /* Adjust as needed */
- margin-top: 20px; /* Adjust as needed */
+  color: #FFF;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+.sale-banner {
+  color: #F00;
+  font-family: 'Inter', sans-serif;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.holidays-text{
+  color: #F00;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.categories-text {
+  color: #070211;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
-.sale-banner {
-  color: red;
-  padding: 20px;
-}
 
 .new-year-banner {
   color: white;
@@ -37,9 +73,4 @@ h1, h2 {
 
 p {
  font-size: 18px;
-}
-
-.happynewyear{
-  fill: url(images/New\ Year\ Photo.png), lightgray 50% / cover no-repeat;
-  background-position: center;
 }
